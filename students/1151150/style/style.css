@@ -1,5 +1,5 @@
 body {
-	font-family: arial;
+	font-family:'Lucida Sans';
 }
 .img img {
 	border-radius: 50%;
@@ -16,10 +16,13 @@ body {
         align-items: center;
 }
 
+h1 {
+	color:darkred;
+}
 
 header {
 	width: 100%;
-	background-color: #a5cfe8;
+	background-color: #f79899;
 	padding-bottom: 20px;
 	padding-top: 50px;
 
@@ -28,7 +31,7 @@ header {
 .presentacion {
 	display: flex;
     align-items: center;
-    background-color: #a5cfe8;
+    background-color:  #f79899;
     padding-bottom: 20px;
 }
 
@@ -38,6 +41,9 @@ header {
 
 }
 
+p{
+	text-align: justify;
+}
 .presentacion span,a {
 
 	margin: 0 auto;
