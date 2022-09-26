@@ -6,7 +6,8 @@
     box-sizing: border-box; }
 
 body {
-    background: #fff;
+    background: url("../img/fondo.jpg") #fff;
+    background-size: auto;
     font-family: "Open Sans";
     font-size: 16px; }
 
@@ -15,19 +16,21 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    height: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header .contenedor-texto {
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
-    align-content: center;
-     }
+    align-items: center;
+    }
 header .contenedor-texto .texto {
-    margin: 190px 0;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 3px;
-    display: inline-block;
     text-align: center;
     padding: 20px 60px; }
 header .contenedor-texto .texto h1,
@@ -54,32 +57,45 @@ header .contenedor-texto .texto .profesion {
 .contenedor .img img{
     border-radius: 50%;
     vertical-align: top;
-    border: 5px solid rgba(255, 255, 255, 0.2);
+    border: 5px solid rgba(255, 255, 255, 0.3);
 }
 
 .enlaces{
-    height: 300px;
+    height: 200px;
     width: 800px;
     background: #ccc;
     margin: 0 auto;
     border-radius: 10px;
     display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
-.enlaces span{
-    flex-wrap: wrap;
+.enlaces .info{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.enlaces .logos{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.enlaces .logos span{
     font-size: 18px;
-    text-align: center;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 50px
 }
 
-.enlaces a{
+.enlaces .logos a{
     color: #fff;
 	text-align: center;
     display: inline-block;
-    margin-top: 150px;
 	width: 100px;
 	padding: 15px 0;
 	border-radius: 3px;
@@ -89,17 +105,34 @@ header .contenedor-texto .texto .profesion {
 .github-logo{
     background: #666666;
 }
+.github-logo:hover{
+    background: #4D4D4D;
+}
 .email-logo{
     background: #cd201f;
+}
+
+.email-logo:hover{
+    background: #A51514;
 }
 
 .boton{
     margin: auto;
 	background: #3895ea;
-	color: #fff;
+	color: #fff;    
 	border: none;
-	border-radius: 3px;
+	border-radius: 5px;
 	padding: 15px 40px;
 	cursor: pointer;
     width: 200px;
+}
+
+.boton:hover{
+    background: #1c7bd3;
+}
+
+.boton a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
 }
