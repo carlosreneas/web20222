@@ -1,0 +1,17 @@
+body {
+  background: rgb(224, 231, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(224, 231, 0, 1) 0%,
+    rgba(0, 20, 119, 1) 50%,
+    rgba(185, 0, 1, 1) 100%
+  );
+}
+
+p {
+  color: aliceblue;
+}
+
+i {
+  color: aquamarine;
+}

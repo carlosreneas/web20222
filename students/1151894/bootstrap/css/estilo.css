@@ -9,3 +9,7 @@ footer{
 .navbar-header img{
     height: 120px;
 }
+
+picture img{
+    width: 100%;
+}
