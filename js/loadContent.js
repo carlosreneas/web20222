@@ -57,7 +57,6 @@ function loadHeader(body){
 
 function loadStudent(body, student) {
 
-
 	var request = new XMLHttpRequest();
 	request.open('GET', 'students/'+student+'/index.html', true);
 	request.onload = function (e) {
