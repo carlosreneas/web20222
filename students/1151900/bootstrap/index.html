@@ -4,97 +4,197 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- CSS only -->
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Mundial QATAR 2022</title>
 </head>
 <body>
-    <nav>
-        <div>
-        <div>
-        <a href="#">Rusia 2018</a>
+  <nav class="navbar navbar-default">
+    <div class="container" id="contenedor">
+        <div class="navbar-header">
+            <img title="qatar2022" src="img/Qatar2022.png" high alt="">
         </div>
         <div>
-        <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Sede</a></li>
-        <li><a href="#">Partidos</a></li>
-        <li><a href="#">Grupos A</a></li>
-        <li><a href="#">Grupos B</a></li>
-        <li><a href="#">Grupos C</a></li>
-        <li><a href="#">Grupos D</a></li>
-        <li><a href="#">Contacto</a></li>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="navbar-brand active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-brand" href="#">Sede</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-brand" href="#">Partidos</a>
+              </li>
+        <li class="nav-item dropdown">
+            <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Grupo A
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Qatar</a></li>
+              <li><a class="dropdown-item" href="#">Ecuador</a></li>
+              <li><a class="dropdown-item" href="#">Senegal</a></li>
+              <li><a class="dropdown-item" href="#">Paises Bajos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Grupo B
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Inglaterra</a></li>
+              <li><a class="dropdown-item" href="#">Iran</a></li>
+              <li><a class="dropdown-item" href="#">USA</a></li>
+              <li><a class="dropdown-item" href="#">Gales</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Grupo C
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Argentina</a></li>
+              <li><a class="dropdown-item" href="#">Arabia Saudi</a></li>
+              <li><a class="dropdown-item" href="#">Mexico</a></li>
+              <li><a class="dropdown-item" href="#">Polonia</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Grupo D
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Francia</a></li>
+              <li><a class="dropdown-item" href="#">Australia</a></li>
+              <li><a class="dropdown-item" href="#">Dinamarca</a></li>
+              <li><a class="dropdown-item" href="#">Tunez</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Grupo E
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">España</a></li>
+              <li><a class="dropdown-item" href="#">Costa Rica</a></li>
+              <li><a class="dropdown-item" href="#">Alemania</a></li>
+              <li><a class="dropdown-item" href="#">Japón</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Grupo F
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Belgica</a></li>
+              <li><a class="dropdown-item" href="#">Canadá</a></li>
+              <li><a class="dropdown-item" href="#">Marruecos</a></li>
+              <li><a class="dropdown-item" href="#">Croacia</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Grupo G
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Brasil</a></li>
+              <li><a class="dropdown-item" href="#">Serbia</a></li>
+              <li><a class="dropdown-item" href="#">Suiza</a></li>
+              <li><a class="dropdown-item" href="#">Camerún</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Grupo H
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Portugal</a></li>
+              <li><a class="dropdown-item" href="#">Ghana</a></li>
+              <li><a class="dropdown-item" href="#">Uruguay</a></li>
+              <li><a class="dropdown-item" href="#">Cora Del Sur</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand" href="#" id="selh3">Colombia</a>
+          </li>
         </ul>
         </div>
         </div>
     </nav>
 
-    <div>
+    
+
+    <div class="container">
+    <div class="row">
+    <div class="col-xd-12 col-sm-9">
+    <div class="page-header">
         <h1>Mundial de Rusia 2018</h1>
-        <p>La Copa Mundial de la FIFA Rusia 2018 (en ruso: Чемпионат мира по футболу Россия
-        2018) será la vigésima primera edición de la Copa Mundial de Fútbol. Esta edición del evento se
-        realizará en Rusia entre el 14 de junio y el 15 de julio de 2018, siendo la primera vez que un país de
-        Europa Oriental organiza el campeonato.</p>
-        <p>A partir del 13 de marzo hasta el 3 de abril de 2018 (12:00 Hora de Moscú), podrá solicitar
-        Entradas para la Copa Mundial de la FIFA Rusia 2018™. Las Entradas serán asignadas en base al
-        Orden en que vayan llegando las Solicitudes de Entrada y sujetas a la disponibilidad.</p>
+        <p>La Copa Mundial de Fútbol de la FIFA Catar 2022 (en árabe, كأس العالم لكرة القدم قطر 
+          2022) será la XXII edición de la Copa Mundial de Fútbol masculino organizada por la FIFA. 
+          Se desarrollará desde el 20 de noviembre al 18 de diciembre en Catar, 
+          que consiguió los derechos de organización el 2 de diciembre de 2010.</p>
+        <p>Será la tercera vez que el torneo se dispute en el continente asiático, tras la edición de 2002,
+           jugada en Corea del Sur y Japón, y la de Rusia 2018 (aunque esta última contaba con una sola sede en territorio asiático)
+           ,y la primera que se celebra en Asia Occidental. También por primera vez, el torneo tiene lugar en Oriente Próximo, 
+           en un país árabe y de mayoría musulmana, así como el de menor extensión territorial.</p>
         <h2>Elección del pais anfitrión</h2>
-        <p>La FIFA decidió que la elección de la sede de la Copa Mundial de Fútbol de 2018 se
-        efectuara en conjunto con la de 2022 en la reunión del Comité Ejecutivo del organismo, realizado en
-        Zúrich (Suiza) el 2 de diciembre de 2010.</p>
-        <p>De acuerdo al sistema de rotación continental implementado por la FIFA, las asociaciones
-        miembro o asociadas a la CAF y la CONMEBOL se encontraban vetadas para participar de esta
-        candidatura. En consecuencia, Rusia presentó su candidatura oficialmente junto a las de Japón, Corea
-        del Sur, Australia, Bélgica-Países Bajos, Inglaterra, España-Portugal, Estados Unidos y Qatar.
-        Finalmente, Australia, Japón, Corea del Sur, Catar y Estados Unidos se retiraron algunos meses antes
-        de la decisión para concentrarse en la elección de 2022.</p>
-        <p>La votación se realizó en Zúrich el 2 de diciembre de 2010. En la primera ronda, Inglaterra
-        alcanzó dos votos, Países Bajos-Bélgica obtuvo cuatro, España-Portugal llegó a los siete y Rusia se
-        alzó con nueve. Al no alcanzar ninguno la mayoría necesaria de doce, Inglaterra fue eliminado por ser
-        el candidato con menos respaldo y fue necesaria una segunda ronda. Aquí Rusia consiguió trece
-        sobre los siete que recibió la dupla ibérica y los dos que recibió la candidatura Bélgica-Países
-        Bajos.</p>
-        <p>Tras la elección, Vladímir Putin, el entonces primer ministro ruso, aseguró que «Rusia
-        2018 será fantástico» y proyectó la construcción de nuevos estadios y la presencia de «las más altas
-        normativas de calidad». Por su parte, Blatter realizó el viaje protocolar al país seleccionado y aseguró
-        «que se producirá una cooperación maravillosa entre la FIFA y Rusia».</p>
+        <p>Desde hace décadas que la FIFA ha decidido expandir sus fronteras y les entregó a países con poca tradicional futbolera 
+          la posibilidad de ser sede de una Copa del Mundo. Comenzó con Estados Unidos en 1994 y continuó con Corea-Japón 2002. 
+          Esto se tornó casi una costumbre después de Sudáfrica 2010 y Rusia 2018. 
+          En 2022 habrá un nuevo organizador: Qatar.</p>
+        <p>A finales de 2010, el Comité ejecutivo de FIFA anunció que Qatar se convertiría en el país afitrión del Mundial de 2022. 
+          El país asiático compitió en este proceso con otras 
+          cuatro sedes candidatas: Australia, Estados Unidos, Corea del Sur y Japón.</p>
+        
+        <p>En la primera vuelta, Qatar tuvo 11 votos contra 4 de Corea del Sur, 3 de Estados Unidos, 3 de Japón y uno de Australia. 
+          Los oceánicos, que han recibido mundiales de otros deportes, aseguraban entregar 16 estadios y partidos por todo el territorio.
+           La propuesta no convenció.</p>
+        
+          <p>En tanto, Estados Unidos, que perdió “la final” por 14-8, tampoco se fue con las manos vacías y organizará la Copa 2026 junto a Canadá y México. 
+            En esta ocasión superó a Marruecos, que apostaba a ser el segundo africano anfitrión.</p>
+        
         <h2>Formato de Competición</h2>
-        <p>Los 32 equipos que participan en la fase final se dividen en 8 grupos de 4 equipos cada
-        uno. Dentro del grupo cada equipo juega tres partidos, uno contra cada uno de los demás miembros
-        del grupo. Según el resultado de cada partido, se otorgan tres puntos al ganador y ninguno al
-        perdedor, y en caso de empate, se otorga un punto a cada equipo.</p>
-        <p>Pasan a la siguiente ronda los dos equipos de cada grupo mejor clasificados. El orden de
-        clasificación se determina teniendo en cuenta los siguientes criterios, en orden de preferencia:</p>
+        <p>El Mundial de Qatar contará con 32 países que estarán divididos en ocho grupos de cuatro participantes cada uno, 
+          de los cuales solo los primeros dos avanzarán a la ronda de eliminatorias. 
+          En la fase inicial todos jugarán contra todos una vez y la misma se desarrollará desde el 21 de noviembre hasta el 2 de diciembre.</p>
+        <p>La fase eliminatoria contará con octavos de final, cuartos, semifinal y la final. Además, se disputará un partido por el tercer puesto. 
+          Cada cruce en esta fase constará de un solo encuentro por llave. 
+          Por lo tanto, quienes pierdan en los 90 minutos quedarán descalificados. En caso de empate, irán a tiempo extra y luego a penales. El calendario será el siguiente:</p>
         <ol>
-        <li>El mayor número de puntos obtenidos teniendo en cuenta todos los partidos del
-        grupo</li>
-        <li>La mayor diferencia de goles sumados teniendo en cuenta todos los partidos del
-        grupo</li>
-        <li>El mayor número de goles a favor anotados teniendo en cuenta todos los partidos
-        del grupo</li>
+        <li>Octavos de final: del 3 de diciembre al 6.</li>
+        <li>Cuartos de final: entre el 9 y el 10 de diciembre.</li>
+        <li>Semifinal: desde el 14 hasta el 15 de diciembre.</li>
+        <li>Tercer puesto: será el 17 de diciembre.</li>
+        <li>Final: se disputará el 18 de diciembre.</li>
         </ol>
-        <p>Si dos o más equipos quedan igualados según los criterios anteriores sus posiciones, se
-            determinarán mediante los siguientes criterios, en orden de preferencia:</p>
-            <ol>
-            <li>El mayor número de puntos obtenidos entre los equipos en cuestión</li>
-            <li>La diferencia de goles teniendo en cuenta los partidos entre los equipos en
-            cuestión</li>
-            <li>El mayor número de goles a favor anotados por cada equipo en los partidos
-            disputados entre los equipos en cuestión</li>
-            <li>Sorteo del comité organizador de la Copa Mundial</li>
-            </ol>
-            <p>La segunda ronda incluye todas las fases desde los octavos de final hasta la final. El
-            ganador de cada partido pasa a la siguiente fase, y el perdedor queda eliminado. Los equipos
-            perdedores de las semifinales juegan un partido por el tercer y cuarto puesto. En el partido final, el
-            ganador obtiene la Copa del Mundo.</p>
-            <p>Si el partido termina empatado se juega un tiempo suplementario. Si el resultado sigue
-            igualado tras la prórroga se define con tiros desde el punto penal.</p>
-            </div>
-            <footer>
-            <p>Programación Aplicaciones Web - 2018</p>
+        
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <picture>
+            <img src="img/La-eeb.png" alt="">
+          </picture>
+          <i><span>Lee</span>Mascota del mundial</i>
+          <picture>
+            <img src="img/Qatar2022.png" alt="">
+          </picture>
+          <i>Logo del mundial</i>
+        </div>
+      </div>  
+    </div>
+
+    
+
+            <footer class="footer">
+              <div class="container">
+                <p class="text-muted">Programación Aplicaciones Web - 2018</p>
+              </div>
             </footer>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
+            <script src="js/index.js"></script>
 </body>
 <!-- JavaScript Bundle with Popper -->
 </html>
