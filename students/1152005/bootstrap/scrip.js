@@ -7,6 +7,9 @@ $("#selh3").click(function (event) {
 $("#contacto").click(function (event) {
     $("#contenedor").load('contacto/contacto.html');
 })
+$("#partidos").click(function(event){
+    $("#contenedor").load('partidos/partidos.html')
+})
 var part = "";
 $.getJSON('partidos.json', function (datos) {
     $("#contenido").html('');
