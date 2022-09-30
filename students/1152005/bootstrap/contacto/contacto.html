@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-<link rel="stylesheet" href="css/estilo.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
-    <title>Document</title>
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+
+
+    <title>Contacto</title>
 </head>
+
 <body>
     <form action="contact_from" aria-roledescription="#" id="contact_from" runat="server">
         <div>
             <ul>
                 <li>
                     <h2>Contactos</h2>
-                   <span class="required_notification">*Datos Requeridos </span>
+                    <span class="required_notification">*Datos Requeridos </span>
                 </li>
                 <li>
                     <label for="name">Nombre</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1"  placeholder="Carlos Rosendo Gutierrez" required/> 
+                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Carlos Rosendo Gutierrez" required />
                 </li>
-                
+
                 <li>
                     <label for="email">Email</label>
-                    <input type="email"  name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required/>
+                    <input type="email" name="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com" required />
                     <span class="from_hint">Formato Correcto:"nombre@algo.com"</span>
 
                 </li>
                 <li>
                     <label for="website">Sitio web</label>
-                    <input type="url" name="website"  class="form-control" id="exampleFormControlInput1" placeholder="http://algo.com" required pattern="(http/https)://.+"/>
+                    <input type="url" name="website" class="form-control" id="exampleFormControlInput1"
+                        placeholder="http://algo.com" required pattern="(http/https)://.+" />
                     <span class="from_hint">Formato Correcto"http://algo.com"</span>
 
                 </li>
                 <li>
                     <label for="message" for="exampleFormControlTextarea1">Mensaje:</label>
-                    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        required></textarea>
 
                 </li>
                 <li>
@@ -55,4 +63,5 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
+
 </html>
