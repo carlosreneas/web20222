@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding:0;
     background: #247BA0;    
+    box-sizing: border-box;
 }
 
 .name{
@@ -82,6 +83,7 @@ body{
     width: 400px;
     height: 400px;
    overflow: hidden;
+   box-sizing: border-box;
 }
 .menu {
     display: flex;
