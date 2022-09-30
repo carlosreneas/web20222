@@ -44,18 +44,54 @@
                 <p>En 2003 participó en la Copa FIFA Confederaciones representando a la Conmebol
                     como campeón de América del Sur; en esa sexta edición realizada en Francia,
                     Colombia alcanzó el cuarto lugar.</p>
+
+                <form class="contact_form" action="#" id="contact_form" runat="server">
+                    <div>
+                        <ul>
+                            <li>
+                                <h2>Contactos</h2>
+                                <span class="required_notification">* Datos requeridos</span>
+                            </li>
+                            <li>
+                                <label for="name">Nombre:</label>
+                                <input type="text" placeholder="Carlos Rosendo Gutierrez" required />
+                            </li>
+                            <li>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" placeholder="nombre@algo.com" required />
+                                <span class="form_hint">Formato correcto: "nombre@algo.com"</span>
+                            </li>
+                            <li>
+                                <label for="website">Sitio web:</label>
+                                <input type="url" name="website" placeholder="http://algo.com" required
+                                    pattern="(http|https)://.+" />
+                                <span class="form_hint">Formato correcto: "http://algo.com"</span>
+                            </li>
+                            <li>
+                                <label for="message">Mensaje:</label>
+                                <textarea name="message" cols="40" rows="6" required></textarea>
+                            </li>
+                            <li>
+                                <button class="submit" type="submit">Enviar mensaje</button>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
             </div>
             <div class="col-xs-12 col-sm-3">
                 <picture><img class="imgseleccion"
-                        src="http://e00-co-marca.uecdn.es/claro/assets/multimedia/imagenes/2018/07/10/15312224795659.jpg" alt="seleccion colombia">
+                        src="http://e00-co-marca.uecdn.es/claro/assets/multimedia/imagenes/2018/07/10/15312224795659.jpg"
+                        alt="seleccion colombia">
                 </picture>
                 <i>Imagen Selección</i>
                 <picture><img class="imgseleccion"
-                        src="https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/ZJRNB5XIM5MP3E3MBEYENPLT6Y.jpg" alt="camiseta seleccion">
+                        src="https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/ZJRNB5XIM5MP3E3MBEYENPLT6Y.jpg"
+                        alt="camiseta seleccion">
                 </picture>
                 <i>Camiseta Selección</i>
                 <picture><img class="imgseleccion"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/200px-Flag_of_Colombia.svg.png" alt="bandera colombia">
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/200px-Flag_of_Colombia.svg.png"
+                        alt="bandera colombia">
                 </picture>
                 <i>Bandera</i>
             </div>
