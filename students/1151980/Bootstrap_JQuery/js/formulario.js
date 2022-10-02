@@ -33,33 +33,42 @@
 // return true;
 // }
 
-const nombre = document.getElementById("nameU")
-const email = document.getElementById("mail")
-const form = document.getElementById("contact_form")
-const parrafo = document.getElementById("message")
+const nombre = document.getElementById("names");
+const email = document.getElementById("email");
+const websites = document.getElementById("websites");
+const message = document.getElementById("messages");
+const form = document.getElementById("contact_form");
+const parrafo = document.getElementById("messageError");
 
-contact_form.addEventListener("submit", e=>{
+form.addEventListener("submit", e=>{
     e.preventDefault()
     let warnings = ""
     let entrar = false
     let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/
     parrafo.innerHTML = ""
-    if(nombre.value.length <6){
-        warnings += `El nombre no es valido <br>`
+    if(nombre.value.length < 1 ){
+        warnings += `<div class="alert alert-warning">Dijite un nombre valido</div>  `
         entrar = true
     }
+
+    if(websites.value.length < 6 ){
+        warnings += `<div class="alert alert-warning">Rellenar el espacio de website</div>  `
+        entrar = true
+    }
+
     if(!regexEmail.test(email.value)){
-        warnings += `El email no es valido <br>`
+        warnings += `<div class="alert alert-warning">Dijite un email valido</div>  `
         entrar = true
     }
-    if(pass.value.length < 8){
-        warnings += `La contraseña no es valida <br>`
+    
+    if(message.value.length < 1 ){
+        warnings += `<div class="alert alert-warning">Redacte un mensaje valido</div>  `
         entrar = true
     }
 
     if(entrar){
         parrafo.innerHTML = warnings
     }else{
-        parrafo.innerHTML = "Enviado"
+        parrafo.innerHTML = `<div class="alert alert-success">enviado</div>  `
     }
 })

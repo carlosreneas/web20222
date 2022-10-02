@@ -17,23 +17,24 @@
          </li> 
          <li> 
          <label for="name">Nombre:</label> 
-         <input type="text" id="nameU" placeholder="Dijite su nombre aqui"  /> 
+         <input type="text" name="name" id="names" placeholder="Dijite su nombre aqui"  /> 
          </li> 
          <li> 
          <label for="email">Email:</label> 
-         <input type="email" name="email" id="mail" placeholder="nombre@algo.com"  /> 
+         <input type="email" name="email" id="email" placeholder="nombre@algo.com"  /> 
          <span class="form_hint">Formato correcto: "ejemplo@algo.com"</span> 
          </li> 
          <li> 
          <label for="website">Sitio web:</label> 
-         <input type="url" name="website" id="webs" placeholder="http://algo.com"  
+         <input type="url" name="website" id="websites" placeholder="http://algo.com"  
          pattern="(http|https)://.+" /> 
          <span class="form_hint">Formato correcto: "http://algo.com"</span> 
          </li> 
          <li> 
          <label for="message">Mensaje:</label> 
-         <textarea name="message" id="message" cols="40" rows="6" ></textarea>
+         <textarea name="message" id="messages" cols="40" rows="6" ></textarea>
       </li> 
+            <div id="messageError"  style="text-align:center ;"></div>
       <li> 
       <button class="submit" id="enviarForm" type="submit">Enviar mensaje</button> 
       </li> 
